@@ -12,7 +12,7 @@ function takeAName(arr, letter) {
     for (let i = 0; i < arr.length; i++) {
         let word = arr[i]
         // SE la prima lettera dei nomi contenuti è A vengono salvati in un altro array 
-        if (word.charAt(0) === letter) {
+        if (word(0) === letter) {
             aName.push(word)
         }
     }
@@ -28,7 +28,7 @@ const takeAName = (arr, letter) => {
     for (let i = 0; i < arr.length; i++) {
         let word = arr[i];
         // SE la prima lettera dei nomi contenuti è A vengono salvati in un altro array
-        if (word.charAt(0) === letter) {
+        if (word(0) === letter) {
             results.push(word);
         }
     }
