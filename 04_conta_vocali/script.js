@@ -2,12 +2,12 @@
 
 const word = 'javascript';
 
-// creo un array conteneti le volcali che mi servirà per il confronto
-const vocals = 'aeiou'
 
 // Dichiara la funzione qui.
 /* 
 function countVocals(voc) {
+    // creo un array conteneti le volcali che mi servirà per il confronto
+    const vocals = 'aeiou'
     // creo una variabile dove salvare quante volte trovo una vocale 
     let vocalCount = 0
     // creo un array dove salvere le vocali trovate
@@ -30,6 +30,9 @@ function countVocals(voc) {
 
 // arrow function 
 const countVocals = (voc) => {
+    voc = voc.toLowerCase()
+    // creo un array conteneti le volcali che mi servirà per il confronto
+    const vocals = 'aeiou'
     // creo una variabile dove salvare quante volte trovo una vocale 
     let vocalCount = 0
     // creo un array dove salvere le vocali trovate

@@ -2,11 +2,11 @@
 
 const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
-/* const firstLetter = []; */
 
 // Dichiara la funzione qui.
 /* 
 function takeFirstLetter(arr) {
+    const firstLetter = []; 
     // creo un ciclo for per prendere la prima lettera
     for (let i = 0; i < arr.length; i++) {
         // aggiungo la prima lettere di ogni parola nell nuovo array creato precedentemente

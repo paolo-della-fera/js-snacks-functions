@@ -2,17 +2,17 @@
 
 const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
-/* const aName = []; */
 
 // Dichiara la funzione qui.
 // creo la funzione per selezionare solo i nomi che iniziano per A
 /* 
 function takeAName(arr, letter) {
+    const aName = []; 
     // creo un ciclo for per prendere la prima lettera
     for (let i = 0; i < arr.length; i++) {
         let word = arr[i]
         // SE la prima lettera dei nomi contenuti è A vengono salvati in un altro array 
-        if (word(0) === letter) {
+        if (word[0] === letter) {
             aName.push(word)
         }
     }
@@ -24,15 +24,15 @@ function takeAName(arr, letter) {
 // arrow function
 const takeAName = (arr, letter) => {
     // mi creo un array per contenere i risultati
-    const results = []; 
+    const results = [];
     for (let i = 0; i < arr.length; i++) {
         let word = arr[i];
         // SE la prima lettera dei nomi contenuti è A vengono salvati in un altro array
-        if (word(0) === letter) {
+        if (word[0] === letter) {
             results.push(word);
         }
     }
-    
+
     return results;
 }
 
